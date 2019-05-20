@@ -6,7 +6,7 @@ import geoviews.tile_sources as gvts
 hv.extension("bokeh", logo=False)
 
 
-class HoloMap(param.Parameterized):
+class ExampleMap(param.Parameterized):
 
     number_of_points = param.Integer(default=2, bounds=(1, 3))
 

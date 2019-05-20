@@ -13,7 +13,7 @@ def report_dboard():
         }
     )
 
-    interactive_map = maps.HoloMap(input_data)
+    interactive_map = maps.ExampleMap(input_data)
 
     gspec = pn.GridSpec(sizing_mode="stretch_both")
     gspec[0, 0] = interactive_map.param
