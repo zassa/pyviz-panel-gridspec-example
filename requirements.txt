@@ -1,0 +1,6 @@
+panel==0.5.1
+pandas==0.24.2
+param==1.9.0
+holoviews==1.12.1
+geoviews==1.6.2
+nodejs=10.13.0
